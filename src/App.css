@@ -1,7 +1,10 @@
 :root {
+  --primary: #2b6777;
   --yellow: #f5c32c;
+  --secondary: #52ab98;
+  --plight: #c8d8e4;
   --orange: #fca61f;
-  --black: #242d49;
+  --dark: #1d2029;
   --gray: rgba(36, 45, 73, 0.65);
   --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
   --hrColor: #cfcdcd;
@@ -12,4 +15,20 @@
   --video: #4A4EB7;
   --location: #EF5757;
 --shedule: #E1AE4A;
+}
+
+.App{
+  overflow: hidden;
+  color: var(--dark);
+  background-color: #eee6e6;
+  padding: 1rem 1rem;
+}
+
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: #91d7c6;
+  filter: blur(72px);
 }
